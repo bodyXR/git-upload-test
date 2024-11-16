@@ -1,0 +1,40 @@
+﻿<Page x:Class="quiz.Quiz"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:quiz"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Quiz">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="quizbg.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Math Quiz"  HorizontalAlignment="Left"  VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="24" Margin="27,0,0,0"/>
+        <Button  Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Next Question " Height="30" Width="124" Background="Black" BorderBrush="{x:Null}" Foreground="White" Grid.Row="3" Click="Button_Click"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Center" Content="Previous Question " Height="30" Width="124" Background="Black" BorderBrush="{x:Null}" Foreground="White" Margin="30,0,0,0" Grid.Row="3" Click="Button_Click_1"/>
+        <TextBlock Name="question" HorizontalAlignment="Left" Grid.ColumnSpan="3" Width="554" Foreground="White" Margin="36,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding title}" VerticalAlignment="Center" FontSize="16"/>
+        <RadioButton  Name="answer1" Content="{Binding answers[0].title}" VerticalContentAlignment="Center" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Center" Margin="36,0,0,0" FontSize="16" Foreground="White" Checked="ChooseAnswer"/>
+        <RadioButton  Name="answer2" Content="{Binding answers[1].title}" VerticalContentAlignment="Center" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Center" Margin="36,0,0,0" FontSize="16" Foreground="White" Grid.Column="1" Checked="ChooseAnswer"/>
+        <RadioButton  Name="answer3" Content="{Binding answers[2].title}" VerticalContentAlignment="Center" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Center" Margin="36,0,0,0" FontSize="16" Foreground="White" Grid.Column="2" Checked="ChooseAnswer"/>
+        <RadioButton  Name="answer4" Content="{Binding answers[3].title}" VerticalContentAlignment="Center" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Center" Margin="36,0,0,0" FontSize="16" Foreground="White" Grid.Column="3" Checked="ChooseAnswer"/>
+
+        <Label Grid.Column="3" Name="questionGuide" Content="Question 1 of 20" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Foreground="White" FontSize="18" FontWeight="Bold"/>
+        <Label Grid.Column="2" Name="result" Content="Question 1 of 20" HorizontalAlignment="Left" Margin="0,21,0,0" VerticalAlignment="Top" Foreground="White" FontSize="11" Grid.Row="3"/>
+        <Button Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Submit " Height="30" Width="124" Background="#FF27B72F" BorderBrush="{x:Null}" Foreground="White" Grid.Row="3" Margin="10,0,0,0" Click="Button_Click_2"/>
+    </Grid>
+</Page>

@@ -16,7 +16,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="quizbg.png"/>
         </Grid.Background>
-        <Label Content="Welcom To Quizer" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="48" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Welcom To Quizer Quiz APP" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="48" FontWeight="Bold" Foreground="White"/>
         <Border BorderThickness="1" CornerRadius="4" Grid.Row="1" HorizontalAlignment="Center" Background="Black"  VerticalAlignment="Top" Height="39" Width="154" Margin="0,5,0,0" >
             <Button Content="Start Quiz!" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="39" Width="154" FontSize="16" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White" Click="Button_Click"/>
         </Border>

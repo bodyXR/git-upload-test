@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Test\\source\\repos\\quiz_git_1\\git-upload-test\\quiz\\",
+  "WorkspaceRootPath": "C:\\Users\\Test\\source\\repos\\quiz_git_2\\git-upload-test\\quiz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{435C8A08-4F13-465C-9E8E-E02DD6A651CC}|quiz\\quiz.csproj|c:\\users\\test\\source\\repos\\quiz_git_1\\git-upload-test\\quiz\\quiz\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{435C8A08-4F13-465C-9E8E-E02DD6A651CC}|quiz\\quiz.csproj|c:\\users\\test\\source\\repos\\quiz_git_2\\git-upload-test\\quiz\\quiz\\result.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{435C8A08-4F13-465C-9E8E-E02DD6A651CC}|quiz\\quiz.csproj|solutionrelative:quiz\\result.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{435C8A08-4F13-465C-9E8E-E02DD6A651CC}|quiz\\quiz.csproj|c:\\users\\test\\source\\repos\\quiz_git_2\\git-upload-test\\quiz\\quiz\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{435C8A08-4F13-465C-9E8E-E02DD6A651CC}|quiz\\quiz.csproj|solutionrelative:quiz\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{435C8A08-4F13-465C-9E8E-E02DD6A651CC}|quiz\\quiz.csproj|c:\\users\\test\\source\\repos\\quiz_git_2\\git-upload-test\\quiz\\quiz\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{435C8A08-4F13-465C-9E8E-E02DD6A651CC}|quiz\\quiz.csproj|solutionrelative:quiz\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +27,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Result.xaml",
+              "DocumentMoniker": "C:\\Users\\Test\\source\\repos\\quiz_git_2\\git-upload-test\\quiz\\quiz\\Result.xaml",
+              "RelativeDocumentMoniker": "quiz\\Result.xaml",
+              "ToolTip": "C:\\Users\\Test\\source\\repos\\quiz_git_2\\git-upload-test\\quiz\\quiz\\Result.xaml",
+              "RelativeToolTip": "quiz\\Result.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T11:47:58.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Home.xaml",
-              "DocumentMoniker": "C:\\Users\\Test\\source\\repos\\quiz_git_1\\git-upload-test\\quiz\\quiz\\Home.xaml",
+              "DocumentMoniker": "C:\\Users\\Test\\source\\repos\\quiz_git_2\\git-upload-test\\quiz\\quiz\\Home.xaml",
               "RelativeDocumentMoniker": "quiz\\Home.xaml",
-              "ToolTip": "C:\\Users\\Test\\source\\repos\\quiz_git_1\\git-upload-test\\quiz\\quiz\\Home.xaml",
+              "ToolTip": "C:\\Users\\Test\\source\\repos\\quiz_git_2\\git-upload-test\\quiz\\quiz\\Home.xaml",
               "RelativeToolTip": "quiz\\Home.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-16T11:41:01.499Z",
+              "WhenOpened": "2024-11-16T11:47:51.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Test\\source\\repos\\quiz_git_2\\git-upload-test\\quiz\\quiz\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "quiz\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Test\\source\\repos\\quiz_git_2\\git-upload-test\\quiz\\quiz\\MainWindow.xaml",
+              "RelativeToolTip": "quiz\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T11:47:49.373Z",
               "EditorCaption": ""
             }
           ]
